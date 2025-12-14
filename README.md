@@ -5,13 +5,11 @@
 
 <br />
 
-<!-- Tech Stack Badges -->
 <p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Web_Workers-EB4034?style=for-the-badge&logo=w3c&logoColor=white" alt="Web Workers" />
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+  <img src="https://img.shields.io/badge/Format-Standalone_EXE-555555?style=for-the-badge&logo=box&logoColor=white" alt="Standalone EXE" />
+  <img src="https://img.shields.io/badge/License-Freeware-green?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version" />
 </p>
 
 <br />
@@ -22,10 +20,7 @@
 
 <br />
 
-<!-- DOWNLOAD BUTTON -->
-<a href="https://drive.google.com/file/d/1O58cpS1IODfMPHoZBKDXbY9Wv__rUFPr/view?usp=sharing">
-  <img src="https://img.shields.io/badge/Download_Dither_Pro_v2.0-00C853?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=1a1a1a" alt="Download Now" height="50" />
-</a>
+
 
 </div>
 
@@ -33,9 +28,9 @@
 <hr />
 
 ## About
-**Dither Pro 2.0** is a web-based application designed to bring advanced image dithering algorithms to a modern, accessible interface. Unlike server-side tools, Dither Pro runs entirely in your browser using **Web Workers**, ensuring your photos never leave your device and processing happens in real-time.
+**Dither Pro 2.0** is a standalone Windows application designed to bring advanced image dithering algorithms to a modern, accessible desktop interface. Unlike web-based or cloud-dependent tools, Dither Pro runs entirely on your local machine, ensuring maximum performance and complete privacy for your files.
 
-Whether you are looking to emulate 1-bit Macintosh graphics, prepare images for E-Ink displays, or create retro "pixel art" aesthetics, Dither Pro provides the granular control needed for professional results.
+Whether you are looking to emulate 1-bit Macintosh graphics, prepare images for E-Ink displays, or create retro "pixel art" aesthetics, Dither Pro provides the granular control needed for professional results without requiring an internet connection.
 
 ## Application Gallery
 
@@ -55,32 +50,32 @@ Whether you are looking to emulate 1-bit Macintosh graphics, prepare images for 
 
 ### Advanced Dithering Engines
 Access a library of industry-standard error diffusion and ordered dithering algorithms:
-*   **Error Diffusion:** Floyd-Steinberg, Atkinson, Jarvis-Judice-Ninke, Stucki, Burkes, Sierra (Lite, 2-Row, 3-Row).
-*   **Ordered patterns:** Bayer matrices (2x2, 4x4, 8x8) and Cluster Dot halftones.
-*   **Serpentine Scanning:** Reduce linear artifacts by processing pixels in alternating directions.
+* **Error Diffusion:** Floyd-Steinberg, Atkinson, Jarvis-Judice-Ninke, Stucki, Burkes, Sierra (Lite, 2-Row, 3-Row).
+* **Ordered patterns:** Bayer matrices (2x2, 4x4, 8x8) and Cluster Dot halftones.
+* **Serpentine Scanning:** Reduce linear artifacts by processing pixels in alternating directions.
 
 ### Color Science
-*   **Custom Palettes:** Built-in presets for Gameboy, CGA, Neon, Vaporwave, and Monochrome.
-*   **Dynamic Quantization:** Generate optimized palettes from your source image using Median Cut or Popularity algorithms.
-*   **Perceptual Matching:** Toggle between Euclidean distance and "Redmean" color metrics for human-eye accuracy.
+* **Custom Palettes:** Built-in presets for Gameboy, CGA, Neon, Vaporwave, and Monochrome.
+* **Dynamic Quantization:** Generate optimized palettes from your source image using Median Cut or Popularity algorithms.
+* **Perceptual Matching:** Toggle between Euclidean distance and "Redmean" color metrics for human-eye accuracy.
 
 ### Professional Workflow
-*   **Non-Destructive Editing:** Full Undo/Redo history stack.
-*   **Live Split-View:** Compare your original image and the dithered output side-by-side in real-time.
-*   **Image Enhancement:** Built-in pre-processing for brightness, contrast, saturation, blur, and sharpening.
-*   **Pixel Scaling:** Downsample images (1x to 8x) for authentic retro resolution emulation.
+* **Non-Destructive Editing:** Full Undo/Redo history stack.
+* **Live Split-View:** Compare your original image and the dithered output side-by-side in real-time.
+* **Image Enhancement:** Built-in pre-processing for brightness, contrast, saturation, blur, and sharpening.
+* **Pixel Scaling:** Downsample images (1x to 8x) for authentic retro resolution emulation.
 
 ### Performance
-*   **Client-Side Processing:** No API calls. No uploads. 100% Privacy.
-*   **Off-Main-Thread Architecture:** Heavy computation is offloaded to Web Workers, keeping the UI responsive even with 4K images.
+* **Local Processing:** No API calls. No uploads. 100% Offline.
+* **Native Architecture:** Optimized for Windows to handle heavy computation and high-resolution images with zero latency.
 
 ## How to Run
 
-Dither Pro 2.0 is distributed as a standalone web package.
+Dither Pro 2.0 is distributed as a portable standalone executable.
 
 1.  **Download** the package from the link above.
-2.  **Extract** the contents.
-3.  Open `index.html` in any modern web browser (Chrome, Firefox, Edge, Safari).
+2.  **Extract** the contents to a folder of your choice.
+3.  Run `Dither Pro 2.0.exe`. No installation required.
 
 ## License & Credits
 
