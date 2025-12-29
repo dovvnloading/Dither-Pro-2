@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // This must match your repository name exactly
+  // IMPORTANT: This must match your repo name exactly
   base: '/Dither-Pro-2/',
   server: {
     port: 3000,
