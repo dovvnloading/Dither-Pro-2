@@ -1,10 +1,10 @@
---- START OF FILE .github/workflows/deploy.yml ---
-
 name: Deploy to GitHub Pages
 
 on:
+  # Runs on push to main or master
   push:
     branches: ["main", "master"]
+  # Enables the manual "Run workflow" button
   workflow_dispatch:
 
 permissions:
@@ -27,10 +27,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # REMOVED: cache: 'npm' because you don't have a package-lock.json yet
+          # Cache removed to prevent lockfile errors
 
       - name: Install dependencies
-        # CHANGED: 'npm ci' to 'npm install' to generate the lockfile on the fly
+        # Uses 'install' instead of 'ci' to generate the missing lockfile
         run: npm install
 
       - name: Build
