@@ -1,0 +1,5 @@
+{
+  "name": "Dither Pro 2.0 Web",
+  "description": "A professional-grade, browser-based image dithering suite featuring advanced algorithms, custom palettes, and a modern glassmorphic interface. Entirely client-side processing.",
+  "requestFramePermissions": []
+}
