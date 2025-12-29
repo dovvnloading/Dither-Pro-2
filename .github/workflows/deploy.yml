@@ -1,10 +1,10 @@
---- START OF FILE .github/workflows/deploy.yml ---
-
 name: Deploy to GitHub Pages
 
 on:
+  # Trigger on push to main OR master branch
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
+  # Allows you to click "Run workflow" manually
   workflow_dispatch:
 
 permissions:
