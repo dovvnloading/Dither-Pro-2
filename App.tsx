@@ -1064,7 +1064,7 @@ const App: React.FC = () => {
                           GitHub
                       </a>
                       <a 
-                          href="https://dovvnloading.github.io/" 
+                          href="https://matt-wesney.github.io/website/" 
                           target="_blank" 
                           rel="noopener noreferrer"
                           className="flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-white hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all font-semibold border border-zinc-200 dark:border-zinc-700"
